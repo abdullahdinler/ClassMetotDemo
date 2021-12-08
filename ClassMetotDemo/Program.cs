@@ -19,9 +19,9 @@ namespace ClassMetotDemo
             person2.CostemerMember = "Yeni musteri";
 
             Costemer[] costemers = new Costemer[] {person1, person2 };
-            foreach (var costemer1 in costemers)
+            foreach (var costemers in costemers)
             {
-                Console.WriteLine(costemer1.CostemerId + " " + costemer1.CostemerFirstName + " " + costemer1.CostemerLastaName + " " + costemer1.CostemerMember);
+                Console.WriteLine(costemers.CostemerId + " " + costemers.CostemerFirstName + " " + costemers.CostemerLastaName + " " + costemers.CostemerMember);
             }
 
             Console.WriteLine(" ---- ----- -- -- - - - - - - -- - - - - - -");
